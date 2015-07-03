@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B569404B1B46D6C300085F55 /* libPersistenceLayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B569404A1B46D6C300085F55 /* libPersistenceLayer.a */; };
+		B569404D1B46D6CE00085F55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B569404C1B46D6CE00085F55 /* Foundation.framework */; };
+		B569404F1B46D74200085F55 /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B569404E1B46D74200085F55 /* GHUnitIOS.framework */; };
+		B56940511B46D76000085F55 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B56940501B46D76000085F55 /* CoreGraphics.framework */; };
+		B56940531B46D76700085F55 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B56940521B46D76700085F55 /* UIKit.framework */; };
 		B574E43E1B31A41800037C40 /* libBusinessLogicLayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B574E4321B31A41700037C40 /* libBusinessLogicLayer.a */; };
 		B574E48D1B31AD6300037C40 /* EventsDAOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B574E48C1B31AD6300037C40 /* EventsDAOTests.m */; };
 		B574E4CF1B31BF3100037C40 /* EventsBLTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B574E4CE1B31BF3100037C40 /* EventsBLTest.m */; };
@@ -15,8 +20,6 @@
 		B574E4D51B31BFCD00037C40 /* EventsBL.m in Sources */ = {isa = PBXBuildFile; fileRef = B574E4D31B31BFCD00037C40 /* EventsBL.m */; };
 		B574E4D81B31C01400037C40 /* ScheduleBL.m in Sources */ = {isa = PBXBuildFile; fileRef = B574E4D71B31C01400037C40 /* ScheduleBL.m */; };
 		B574E4D91B31C01400037C40 /* ScheduleBL.m in Sources */ = {isa = PBXBuildFile; fileRef = B574E4D71B31C01400037C40 /* ScheduleBL.m */; };
-		B574E4E21B31C31300037C40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B574E4E11B31C31300037C40 /* Foundation.framework */; };
-		B574E4E41B31C31E00037C40 /* libPersistenceLayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B574E4E31B31C31E00037C40 /* libPersistenceLayer.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B569404A1B46D6C300085F55 /* libPersistenceLayer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPersistenceLayer.a; path = "../PersistenceLayer/build/Debug-iphoneos/libPersistenceLayer.a"; sourceTree = "<group>"; };
+		B569404C1B46D6CE00085F55 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B569404E1B46D74200085F55 /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GHUnitIOS.framework; path = "../../../../../Downloads/2016Olympics_iOS-master/GHUnitIOS.framework"; sourceTree = "<group>"; };
+		B56940501B46D76000085F55 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B56940521B46D76700085F55 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B574E4321B31A41700037C40 /* libBusinessLogicLayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBusinessLogicLayer.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B574E43D1B31A41800037C40 /* BusinessLogicLayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BusinessLogicLayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B574E47F1B31A69A00037C40 /* create_load.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = create_load.sql; sourceTree = "<group>"; };
@@ -62,8 +70,6 @@
 		B574E4D31B31BFCD00037C40 /* EventsBL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsBL.m; sourceTree = "<group>"; };
 		B574E4D61B31C01400037C40 /* ScheduleBL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleBL.h; sourceTree = "<group>"; };
 		B574E4D71B31C01400037C40 /* ScheduleBL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleBL.m; sourceTree = "<group>"; };
-		B574E4E11B31C31300037C40 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		B574E4E31B31C31E00037C40 /* libPersistenceLayer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPersistenceLayer.a; path = "../../PersistenceLayer/build/Debug-iphoneos/libPersistenceLayer.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +77,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B56940511B46D76000085F55 /* CoreGraphics.framework in Frameworks */,
+				B56940531B46D76700085F55 /* UIKit.framework in Frameworks */,
+				B569404F1B46D74200085F55 /* GHUnitIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,17 +95,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B574E4E41B31C31E00037C40 /* libPersistenceLayer.a in Frameworks */,
-				B574E4E21B31C31300037C40 /* Foundation.framework in Frameworks */,
+				B569404D1B46D6CE00085F55 /* Foundation.framework in Frameworks */,
+				B569404B1B46D6C300085F55 /* libPersistenceLayer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B56940491B46D66800085F55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B569404A1B46D6C300085F55 /* libPersistenceLayer.a */,
+				B56940521B46D76700085F55 /* UIKit.framework */,
+				B56940501B46D76000085F55 /* CoreGraphics.framework */,
+				B569404E1B46D74200085F55 /* GHUnitIOS.framework */,
+				B569404C1B46D6CE00085F55 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B574E4291B31A41700037C40 = {
 			isa = PBXGroup;
 			children = (
+				B56940491B46D66800085F55 /* Frameworks */,
 				B574E47E1B31A65000037C40 /* DBFile */,
 				B574E4341B31A41700037C40 /* BusinessLogicLayer */,
 				B574E4C31B31BEF000037C40 /* GHUnitTest */,
@@ -150,8 +172,6 @@
 				B574E4C41B31BEF000037C40 /* Supporting Files */,
 				B574E4CE1B31BF3100037C40 /* EventsBLTest.m */,
 				B574E4D01B31BF7200037C40 /* ScheduleBLTest.m */,
-				B574E4E11B31C31300037C40 /* Foundation.framework */,
-				B574E4E31B31C31E00037C40 /* libPersistenceLayer.a */,
 			);
 			path = GHUnitTest;
 			sourceTree = "<group>";
@@ -402,6 +422,10 @@
 		B574E4471B31A41800037C40 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/emma/Downloads/2016Olympics_iOS-master",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -411,6 +435,10 @@
 		B574E4481B31A41800037C40 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/emma/Downloads/2016Olympics_iOS-master",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -465,6 +493,8 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/emma/Documents/IOS开发/2016Olympics/PersistenceLayer/build/Debug-iphoneos",
+					"/Users/emma/Documents/IOS开发/my",
+					"project/2016Olympics/PersistenceLayer/build/Debug-iphoneos",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
@@ -484,6 +514,8 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/emma/Documents/IOS开发/2016Olympics/PersistenceLayer/build/Debug-iphoneos",
+					"/Users/emma/Documents/IOS开发/my",
+					"project/2016Olympics/PersistenceLayer/build/Debug-iphoneos",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";

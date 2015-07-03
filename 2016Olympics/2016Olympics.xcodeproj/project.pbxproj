@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B53F64B11B46C91100270F17 /* EventsViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B53F64B01B46C91100270F17 /* EventsViewCell.m */; };
+		B53F64B41B46C99200270F17 /* EventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B53F64B31B46C99200270F17 /* EventsViewController.m */; };
+		B53F64B71B46C9B100270F17 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B53F64B61B46C9B100270F17 /* AboutViewController.m */; };
+		B53F64BA1B46C9D900270F17 /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B53F64B91B46C9D900270F17 /* ScheduleViewController.m */; };
+		B53F64BD1B46CA0400270F17 /* EventsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B53F64BC1B46CA0400270F17 /* EventsDetailViewController.m */; };
+		B56940321B46D51A00085F55 /* create_load.sql in Resources */ = {isa = PBXBuildFile; fileRef = B56940301B46D51A00085F55 /* create_load.sql */; };
+		B56940331B46D51A00085F55 /* DBConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = B56940311B46D51A00085F55 /* DBConfig.plist */; };
+		B56940361B46D58A00085F55 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B56940351B46D58A00085F55 /* AdSupport.framework */; };
+		B56940381B46D59A00085F55 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B56940371B46D59A00085F55 /* CoreGraphics.framework */; };
+		B569403A1B46D5A800085F55 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B56940391B46D5A800085F55 /* SystemConfiguration.framework */; };
+		B569403C1B46D5B000085F55 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B569403B1B46D5B000085F55 /* MessageUI.framework */; };
+		B569403E1B46D5BB00085F55 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B569403D1B46D5BB00085F55 /* AudioToolbox.framework */; };
+		B56940401B46D5C500085F55 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B569403F1B46D5C500085F55 /* StoreKit.framework */; };
+		B56940421B46D5DB00085F55 /* libBusinessLogicLayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B56940411B46D5DB00085F55 /* libBusinessLogicLayer.a */; };
+		B56940441B46D5F500085F55 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B56940431B46D5F500085F55 /* libsqlite3.dylib */; };
+		B56940461B46D60000085F55 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B56940451B46D60000085F55 /* UIKit.framework */; };
+		B56940481B46D61000085F55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B56940471B46D61000085F55 /* Foundation.framework */; };
 		B574E45B1B31A48600037C40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B574E45A1B31A48600037C40 /* main.m */; };
 		B574E45E1B31A48600037C40 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B574E45D1B31A48600037C40 /* AppDelegate.m */; };
 		B574E4611B31A48600037C40 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B574E4601B31A48600037C40 /* ViewController.m */; };
@@ -26,6 +43,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B53F64AF1B46C91100270F17 /* EventsViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsViewCell.h; sourceTree = "<group>"; };
+		B53F64B01B46C91100270F17 /* EventsViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsViewCell.m; sourceTree = "<group>"; };
+		B53F64B21B46C99200270F17 /* EventsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsViewController.h; sourceTree = "<group>"; };
+		B53F64B31B46C99200270F17 /* EventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsViewController.m; sourceTree = "<group>"; };
+		B53F64B51B46C9B100270F17 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		B53F64B61B46C9B100270F17 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		B53F64B81B46C9D900270F17 /* ScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleViewController.h; sourceTree = "<group>"; };
+		B53F64B91B46C9D900270F17 /* ScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleViewController.m; sourceTree = "<group>"; };
+		B53F64BB1B46CA0400270F17 /* EventsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsDetailViewController.h; sourceTree = "<group>"; };
+		B53F64BC1B46CA0400270F17 /* EventsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsDetailViewController.m; sourceTree = "<group>"; };
+		B56940301B46D51A00085F55 /* create_load.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = create_load.sql; path = ../DBFile/create_load.sql; sourceTree = "<group>"; };
+		B56940311B46D51A00085F55 /* DBConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = DBConfig.plist; path = ../DBFile/DBConfig.plist; sourceTree = "<group>"; };
+		B56940351B46D58A00085F55 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		B56940371B46D59A00085F55 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B56940391B46D5A800085F55 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B569403B1B46D5B000085F55 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		B569403D1B46D5BB00085F55 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B569403F1B46D5C500085F55 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		B56940411B46D5DB00085F55 /* libBusinessLogicLayer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBusinessLogicLayer.a; path = "../BusinessLogicLayer/build/Debug-iphoneos/libBusinessLogicLayer.a"; sourceTree = "<group>"; };
+		B56940431B46D5F500085F55 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		B56940451B46D60000085F55 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B56940471B46D61000085F55 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B574E4551B31A48600037C40 /* 2016Olympics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2016Olympics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B574E4591B31A48600037C40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B574E45A1B31A48600037C40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -44,6 +83,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B56940481B46D61000085F55 /* Foundation.framework in Frameworks */,
+				B56940461B46D60000085F55 /* UIKit.framework in Frameworks */,
+				B56940441B46D5F500085F55 /* libsqlite3.dylib in Frameworks */,
+				B56940421B46D5DB00085F55 /* libBusinessLogicLayer.a in Frameworks */,
+				B56940401B46D5C500085F55 /* StoreKit.framework in Frameworks */,
+				B569403E1B46D5BB00085F55 /* AudioToolbox.framework in Frameworks */,
+				B569403C1B46D5B000085F55 /* MessageUI.framework in Frameworks */,
+				B569403A1B46D5A800085F55 /* SystemConfiguration.framework in Frameworks */,
+				B56940381B46D59A00085F55 /* CoreGraphics.framework in Frameworks */,
+				B56940361B46D58A00085F55 /* AdSupport.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,9 +106,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B569402F1B46D4E800085F55 /* DBFile */ = {
+			isa = PBXGroup;
+			children = (
+				B56940301B46D51A00085F55 /* create_load.sql */,
+				B56940311B46D51A00085F55 /* DBConfig.plist */,
+			);
+			name = DBFile;
+			sourceTree = "<group>";
+		};
+		B56940341B46D55900085F55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B56940471B46D61000085F55 /* Foundation.framework */,
+				B56940451B46D60000085F55 /* UIKit.framework */,
+				B56940431B46D5F500085F55 /* libsqlite3.dylib */,
+				B56940411B46D5DB00085F55 /* libBusinessLogicLayer.a */,
+				B569403F1B46D5C500085F55 /* StoreKit.framework */,
+				B569403D1B46D5BB00085F55 /* AudioToolbox.framework */,
+				B569403B1B46D5B000085F55 /* MessageUI.framework */,
+				B56940391B46D5A800085F55 /* SystemConfiguration.framework */,
+				B56940371B46D59A00085F55 /* CoreGraphics.framework */,
+				B56940351B46D58A00085F55 /* AdSupport.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B574E44C1B31A48600037C40 = {
 			isa = PBXGroup;
 			children = (
+				B56940341B46D55900085F55 /* Frameworks */,
+				B569402F1B46D4E800085F55 /* DBFile */,
 				B574E4571B31A48600037C40 /* 2016Olympics */,
 				B574E4561B31A48600037C40 /* Products */,
 			);
@@ -85,6 +162,16 @@
 				B574E4651B31A48600037C40 /* Images.xcassets */,
 				B574E4671B31A48600037C40 /* LaunchScreen.xib */,
 				B574E4581B31A48600037C40 /* Supporting Files */,
+				B53F64AF1B46C91100270F17 /* EventsViewCell.h */,
+				B53F64B01B46C91100270F17 /* EventsViewCell.m */,
+				B53F64B21B46C99200270F17 /* EventsViewController.h */,
+				B53F64B31B46C99200270F17 /* EventsViewController.m */,
+				B53F64BB1B46CA0400270F17 /* EventsDetailViewController.h */,
+				B53F64BC1B46CA0400270F17 /* EventsDetailViewController.m */,
+				B53F64B51B46C9B100270F17 /* AboutViewController.h */,
+				B53F64B61B46C9B100270F17 /* AboutViewController.m */,
+				B53F64B81B46C9D900270F17 /* ScheduleViewController.h */,
+				B53F64B91B46C9D900270F17 /* ScheduleViewController.m */,
 			);
 			path = 2016Olympics;
 			sourceTree = "<group>";
@@ -178,6 +265,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B56940331B46D51A00085F55 /* DBConfig.plist in Resources */,
+				B56940321B46D51A00085F55 /* create_load.sql in Resources */,
 				B574E4641B31A48600037C40 /* Main.storyboard in Resources */,
 				B574E4691B31A48600037C40 /* LaunchScreen.xib in Resources */,
 				B574E4661B31A48600037C40 /* Images.xcassets in Resources */,
@@ -198,9 +287,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B53F64B71B46C9B100270F17 /* AboutViewController.m in Sources */,
 				B574E4611B31A48600037C40 /* ViewController.m in Sources */,
+				B53F64B41B46C99200270F17 /* EventsViewController.m in Sources */,
 				B574E45E1B31A48600037C40 /* AppDelegate.m in Sources */,
 				B574E45B1B31A48600037C40 /* main.m in Sources */,
+				B53F64BA1B46C9D900270F17 /* ScheduleViewController.m in Sources */,
+				B53F64BD1B46CA0400270F17 /* EventsDetailViewController.m in Sources */,
+				B53F64B11B46C91100270F17 /* EventsViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +421,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = 2016Olympics/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/emma/Documents/IOS开发/my",
+					"project/2016Olympics/BusinessLogicLayer/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -337,6 +436,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = 2016Olympics/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/emma/Documents/IOS开发/my",
+					"project/2016Olympics/BusinessLogicLayer/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -394,6 +498,7 @@
 				B574E47A1B31A48600037C40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B574E47B1B31A48600037C40 /* Build configuration list for PBXNativeTarget "2016OlympicsTests" */ = {
 			isa = XCConfigurationList;
@@ -402,6 +507,7 @@
 				B574E47D1B31A48600037C40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
