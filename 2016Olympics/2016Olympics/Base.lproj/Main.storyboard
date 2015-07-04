@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="lDQ-Nv-EOY"/>
+                    <tabBarItem key="tabBarItem" title="Home" id="lDQ-Nv-EOY"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kNY-gT-2Z1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -159,7 +159,7 @@
         <scene sceneID="2yO-S4-lxK">
             <objects>
                 <navigationController title="Events" id="Efw-pz-H1C" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="BLy-qa-WCt"/>
+                    <tabBarItem key="tabBarItem" title="Events" id="BLy-qa-WCt"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ziC-c6-ddj">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -177,7 +177,7 @@
         <scene sceneID="dDo-zL-e6Z">
             <objects>
                 <navigationController title="Schedule" id="cYh-wC-bdK" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="Ozk-N7-7OL"/>
+                    <tabBarItem key="tabBarItem" title="Schedule" id="Ozk-N7-7OL"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="3Os-b9-Mlt">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -226,7 +226,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="9ij-bF-8v6"/>
+                    <tabBarItem key="tabBarItem" title="About" id="9ij-bF-8v6"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zpb-0l-PCq" userLabel="First Responder" sceneMemberID="firstResponder"/>
