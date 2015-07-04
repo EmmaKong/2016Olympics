@@ -30,17 +30,8 @@
 		B58B9ADA1B47C1D400EAAA42 /* libPersistenceLayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B58B9AD91B47C1D400EAAA42 /* libPersistenceLayer.a */; };
 		B58B9AEB1B47CAF800EAAA42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B574E4621B31A48600037C40 /* Main.storyboard */; };
 		B58B9AEC1B47CAFA00EAAA42 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B574E4671B31A48600037C40 /* LaunchScreen.xib */; };
+		B58B9AEF1B47CC3500EAAA42 /* 2016Olympics-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B58B9AED1B47CC3500EAAA42 /* 2016Olympics-Info.plist */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		B574E46F1B31A48600037C40 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B574E44D1B31A48600037C40 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B574E4541B31A48600037C40;
-			remoteInfo = 2016Olympics;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		B53F64AF1B46C91100270F17 /* EventsViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsViewCell.h; sourceTree = "<group>"; };
@@ -66,15 +57,15 @@
 		B56940451B46D60000085F55 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B56940471B46D61000085F55 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B574E4551B31A48600037C40 /* 2016Olympics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2016Olympics.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B574E4591B31A48600037C40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B574E45A1B31A48600037C40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B574E45C1B31A48600037C40 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B574E45D1B31A48600037C40 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B574E4631B31A48600037C40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B574E4651B31A48600037C40 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B574E4681B31A48600037C40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		B574E46E1B31A48600037C40 /* 2016OlympicsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2016OlympicsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B58B9AD91B47C1D400EAAA42 /* libPersistenceLayer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPersistenceLayer.a; path = "../PersistenceLayer/build/Debug-iphoneos/libPersistenceLayer.a"; sourceTree = "<group>"; };
+		B58B9AED1B47CC3500EAAA42 /* 2016Olympics-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "2016Olympics-Info.plist"; sourceTree = "<group>"; };
+		B58B9AEE1B47CC3500EAAA42 /* 2016Olympics-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "2016Olympics-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,13 +84,6 @@
 				B569403A1B46D5A800085F55 /* SystemConfiguration.framework in Frameworks */,
 				B56940381B46D59A00085F55 /* CoreGraphics.framework in Frameworks */,
 				B56940361B46D58A00085F55 /* AdSupport.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B574E46B1B31A48600037C40 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,7 +131,6 @@
 			isa = PBXGroup;
 			children = (
 				B574E4551B31A48600037C40 /* 2016Olympics.app */,
-				B574E46E1B31A48600037C40 /* 2016OlympicsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -178,7 +161,8 @@
 		B574E4581B31A48600037C40 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B574E4591B31A48600037C40 /* Info.plist */,
+				B58B9AED1B47CC3500EAAA42 /* 2016Olympics-Info.plist */,
+				B58B9AEE1B47CC3500EAAA42 /* 2016Olympics-Prefix.pch */,
 				B574E45A1B31A48600037C40 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -204,24 +188,6 @@
 			productReference = B574E4551B31A48600037C40 /* 2016Olympics.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B574E46D1B31A48600037C40 /* 2016OlympicsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B574E47B1B31A48600037C40 /* Build configuration list for PBXNativeTarget "2016OlympicsTests" */;
-			buildPhases = (
-				B574E46A1B31A48600037C40 /* Sources */,
-				B574E46B1B31A48600037C40 /* Frameworks */,
-				B574E46C1B31A48600037C40 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B574E4701B31A48600037C40 /* PBXTargetDependency */,
-			);
-			name = 2016OlympicsTests;
-			productName = 2016OlympicsTests;
-			productReference = B574E46E1B31A48600037C40 /* 2016OlympicsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -233,10 +199,6 @@
 				TargetAttributes = {
 					B574E4541B31A48600037C40 = {
 						CreatedOnToolsVersion = 6.3;
-					};
-					B574E46D1B31A48600037C40 = {
-						CreatedOnToolsVersion = 6.3;
-						TestTargetID = B574E4541B31A48600037C40;
 					};
 				};
 			};
@@ -254,7 +216,6 @@
 			projectRoot = "";
 			targets = (
 				B574E4541B31A48600037C40 /* 2016Olympics */,
-				B574E46D1B31A48600037C40 /* 2016OlympicsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -267,15 +228,9 @@
 				B56940331B46D51A00085F55 /* DBConfig.plist in Resources */,
 				B56940321B46D51A00085F55 /* create_load.sql in Resources */,
 				B574E4661B31A48600037C40 /* Images.xcassets in Resources */,
+				B58B9AEF1B47CC3500EAAA42 /* 2016Olympics-Info.plist in Resources */,
 				B58B9AEB1B47CAF800EAAA42 /* Main.storyboard in Resources */,
 				B58B9AEC1B47CAFA00EAAA42 /* LaunchScreen.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B574E46C1B31A48600037C40 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,22 +251,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B574E46A1B31A48600037C40 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		B574E4701B31A48600037C40 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B574E4541B31A48600037C40 /* 2016Olympics */;
-			targetProxy = B574E46F1B31A48600037C40 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B574E4621B31A48600037C40 /* Main.storyboard */ = {
@@ -449,40 +389,6 @@
 			};
 			name = Release;
 		};
-		B574E47C1B31A48600037C40 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = 2016OlympicsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2016Olympics.app/2016Olympics";
-			};
-			name = Debug;
-		};
-		B574E47D1B31A48600037C40 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = 2016OlympicsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2016Olympics.app/2016Olympics";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -500,15 +406,6 @@
 			buildConfigurations = (
 				B574E4791B31A48600037C40 /* Debug */,
 				B574E47A1B31A48600037C40 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B574E47B1B31A48600037C40 /* Build configuration list for PBXNativeTarget "2016OlympicsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B574E47C1B31A48600037C40 /* Debug */,
-				B574E47D1B31A48600037C40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

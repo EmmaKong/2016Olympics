@@ -7,31 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B569404B1B46D6C300085F55 /* libPersistenceLayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B569404A1B46D6C300085F55 /* libPersistenceLayer.a */; };
-		B569404D1B46D6CE00085F55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B569404C1B46D6CE00085F55 /* Foundation.framework */; };
-		B569404F1B46D74200085F55 /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B569404E1B46D74200085F55 /* GHUnitIOS.framework */; };
 		B56940511B46D76000085F55 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B56940501B46D76000085F55 /* CoreGraphics.framework */; };
-		B56940531B46D76700085F55 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B56940521B46D76700085F55 /* UIKit.framework */; };
-		B574E43E1B31A41800037C40 /* libBusinessLogicLayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B574E4321B31A41700037C40 /* libBusinessLogicLayer.a */; };
-		B574E48D1B31AD6300037C40 /* EventsDAOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B574E48C1B31AD6300037C40 /* EventsDAOTests.m */; };
 		B574E4D41B31BFCD00037C40 /* EventsBL.m in Sources */ = {isa = PBXBuildFile; fileRef = B574E4D31B31BFCD00037C40 /* EventsBL.m */; };
-		B574E4D51B31BFCD00037C40 /* EventsBL.m in Sources */ = {isa = PBXBuildFile; fileRef = B574E4D31B31BFCD00037C40 /* EventsBL.m */; };
 		B574E4D81B31C01400037C40 /* ScheduleBL.m in Sources */ = {isa = PBXBuildFile; fileRef = B574E4D71B31C01400037C40 /* ScheduleBL.m */; };
-		B574E4D91B31C01400037C40 /* ScheduleBL.m in Sources */ = {isa = PBXBuildFile; fileRef = B574E4D71B31C01400037C40 /* ScheduleBL.m */; };
-		B58B9ADB1B47C8FF00EAAA42 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B56940521B46D76700085F55 /* UIKit.framework */; };
-		B58B9ADC1B47C90200EAAA42 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B56940501B46D76000085F55 /* CoreGraphics.framework */; };
-		B58B9ADD1B47C90400EAAA42 /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B569404E1B46D74200085F55 /* GHUnitIOS.framework */; };
+		B58B9AF61B47CEF700EAAA42 /* libPersistenceLayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B58B9AF51B47CEF700EAAA42 /* libPersistenceLayer.a */; };
+		B58B9BD81B47D78C00EAAA42 /* EventsBLTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B574E4CE1B31BF3100037C40 /* EventsBLTest.m */; };
+		B58B9BD91B47D79400EAAA42 /* ScheduleBLTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B574E4D01B31BF7200037C40 /* ScheduleBLTest.m */; };
+		B58B9BDA1B47D79A00EAAA42 /* EventsBL.m in Sources */ = {isa = PBXBuildFile; fileRef = B574E4D31B31BFCD00037C40 /* EventsBL.m */; };
+		B58B9BDB1B47D79F00EAAA42 /* ScheduleBL.m in Sources */ = {isa = PBXBuildFile; fileRef = B574E4D71B31C01400037C40 /* ScheduleBL.m */; };
+		B58B9BDC1B47D7BE00EAAA42 /* libPersistenceLayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B58B9AF51B47CEF700EAAA42 /* libPersistenceLayer.a */; };
+		B58B9BDD1B47D7C100EAAA42 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B56940521B46D76700085F55 /* UIKit.framework */; };
+		B58B9BDE1B47D7C300EAAA42 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B56940501B46D76000085F55 /* CoreGraphics.framework */; };
+		B58B9BDF1B47D7C500EAAA42 /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B569404E1B46D74200085F55 /* GHUnitIOS.framework */; };
+		B58B9BE01B47D7CA00EAAA42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B569404C1B46D6CE00085F55 /* Foundation.framework */; };
+		B58B9BE21B47D7DF00EAAA42 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B58B9BE11B47D7DF00EAAA42 /* libsqlite3.dylib */; };
+		B58B9BE31B47D83800EAAA42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B569404C1B46D6CE00085F55 /* Foundation.framework */; };
+		B58B9BE61B47DAE400EAAA42 /* GHUnitTest-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B58B9BE41B47DAE400EAAA42 /* GHUnitTest-Info.plist */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		B574E43F1B31A41800037C40 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B574E42A1B31A41700037C40 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B574E4311B31A41700037C40;
-			remoteInfo = BusinessLogicLayer;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		B574E4301B31A41700037C40 /* CopyFiles */ = {
@@ -46,24 +38,24 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B569404A1B46D6C300085F55 /* libPersistenceLayer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPersistenceLayer.a; path = "../PersistenceLayer/build/Debug-iphoneos/libPersistenceLayer.a"; sourceTree = "<group>"; };
 		B569404C1B46D6CE00085F55 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B569404E1B46D74200085F55 /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GHUnitIOS.framework; path = "../../../../../Downloads/2016Olympics_iOS-master/GHUnitIOS.framework"; sourceTree = "<group>"; };
 		B56940501B46D76000085F55 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		B56940521B46D76700085F55 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B574E4321B31A41700037C40 /* libBusinessLogicLayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBusinessLogicLayer.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		B574E43D1B31A41800037C40 /* BusinessLogicLayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BusinessLogicLayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B574E47F1B31A69A00037C40 /* create_load.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = create_load.sql; sourceTree = "<group>"; };
 		B574E4801B31A69A00037C40 /* DBConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DBConfig.plist; sourceTree = "<group>"; };
-		B574E48C1B31AD6300037C40 /* EventsDAOTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsDAOTests.m; sourceTree = "<group>"; };
-		B574E4C21B31BEF000037C40 /* GHUnitTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GHUnitTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B574E4C51B31BEF000037C40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B574E4CE1B31BF3100037C40 /* EventsBLTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsBLTest.m; sourceTree = "<group>"; };
 		B574E4D01B31BF7200037C40 /* ScheduleBLTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleBLTest.m; sourceTree = "<group>"; };
 		B574E4D21B31BFCD00037C40 /* EventsBL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsBL.h; sourceTree = "<group>"; };
 		B574E4D31B31BFCD00037C40 /* EventsBL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsBL.m; sourceTree = "<group>"; };
 		B574E4D61B31C01400037C40 /* ScheduleBL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleBL.h; sourceTree = "<group>"; };
 		B574E4D71B31C01400037C40 /* ScheduleBL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleBL.m; sourceTree = "<group>"; };
+		B58B9AF51B47CEF700EAAA42 /* libPersistenceLayer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPersistenceLayer.a; path = "../PersistenceLayer/build/Debug-iphoneos/libPersistenceLayer.a"; sourceTree = "<group>"; };
+		B58B9BAF1B47D70D00EAAA42 /* GHUnitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHUnitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B58B9BE11B47D7DF00EAAA42 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		B58B9BE41B47DAE400EAAA42 /* GHUnitTest-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GHUnitTest-Info.plist"; sourceTree = "<group>"; };
+		B58B9BE51B47DAE400EAAA42 /* GHUnitTest-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GHUnitTest-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,29 +63,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B58B9AF61B47CEF700EAAA42 /* libPersistenceLayer.a in Frameworks */,
 				B56940511B46D76000085F55 /* CoreGraphics.framework in Frameworks */,
-				B56940531B46D76700085F55 /* UIKit.framework in Frameworks */,
-				B569404F1B46D74200085F55 /* GHUnitIOS.framework in Frameworks */,
+				B58B9BE31B47D83800EAAA42 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B574E43A1B31A41800037C40 /* Frameworks */ = {
+		B58B9BAC1B47D70D00EAAA42 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B574E43E1B31A41800037C40 /* libBusinessLogicLayer.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B574E4BF1B31BEF000037C40 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B58B9ADD1B47C90400EAAA42 /* GHUnitIOS.framework in Frameworks */,
-				B58B9ADC1B47C90200EAAA42 /* CoreGraphics.framework in Frameworks */,
-				B569404D1B46D6CE00085F55 /* Foundation.framework in Frameworks */,
-				B569404B1B46D6C300085F55 /* libPersistenceLayer.a in Frameworks */,
-				B58B9ADB1B47C8FF00EAAA42 /* UIKit.framework in Frameworks */,
+				B58B9BE21B47D7DF00EAAA42 /* libsqlite3.dylib in Frameworks */,
+				B58B9BDF1B47D7C500EAAA42 /* GHUnitIOS.framework in Frameworks */,
+				B58B9BDC1B47D7BE00EAAA42 /* libPersistenceLayer.a in Frameworks */,
+				B58B9BDD1B47D7C100EAAA42 /* UIKit.framework in Frameworks */,
+				B58B9BDE1B47D7C300EAAA42 /* CoreGraphics.framework in Frameworks */,
+				B58B9BE01B47D7CA00EAAA42 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,7 +88,8 @@
 		B56940491B46D66800085F55 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B569404A1B46D6C300085F55 /* libPersistenceLayer.a */,
+				B58B9BE11B47D7DF00EAAA42 /* libsqlite3.dylib */,
+				B58B9AF51B47CEF700EAAA42 /* libPersistenceLayer.a */,
 				B56940521B46D76700085F55 /* UIKit.framework */,
 				B56940501B46D76000085F55 /* CoreGraphics.framework */,
 				B569404E1B46D74200085F55 /* GHUnitIOS.framework */,
@@ -120,7 +106,6 @@
 				B574E4341B31A41700037C40 /* BusinessLogicLayer */,
 				B574E4C31B31BEF000037C40 /* GHUnitTest */,
 				B574E4331B31A41700037C40 /* Products */,
-				B574E48A1B31AD1000037C40 /* GHUnitTest */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,8 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				B574E4321B31A41700037C40 /* libBusinessLogicLayer.a */,
-				B574E43D1B31A41800037C40 /* BusinessLogicLayerTests.xctest */,
-				B574E4C21B31BEF000037C40 /* GHUnitTest.xctest */,
+				B58B9BAF1B47D70D00EAAA42 /* GHUnitTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -155,17 +139,11 @@
 			path = ../DBFile;
 			sourceTree = "<group>";
 		};
-		B574E48A1B31AD1000037C40 /* GHUnitTest */ = {
-			isa = PBXGroup;
-			children = (
-				B574E48C1B31AD6300037C40 /* EventsDAOTests.m */,
-			);
-			path = GHUnitTest;
-			sourceTree = "<group>";
-		};
 		B574E4C31B31BEF000037C40 /* GHUnitTest */ = {
 			isa = PBXGroup;
 			children = (
+				B58B9BE41B47DAE400EAAA42 /* GHUnitTest-Info.plist */,
+				B58B9BE51B47DAE400EAAA42 /* GHUnitTest-Prefix.pch */,
 				B574E4C41B31BEF000037C40 /* Supporting Files */,
 				B574E4CE1B31BF3100037C40 /* EventsBLTest.m */,
 				B574E4D01B31BF7200037C40 /* ScheduleBLTest.m */,
@@ -176,7 +154,6 @@
 		B574E4C41B31BEF000037C40 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B574E4C51B31BEF000037C40 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -201,31 +178,13 @@
 			productReference = B574E4321B31A41700037C40 /* libBusinessLogicLayer.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		B574E43C1B31A41800037C40 /* BusinessLogicLayerTests */ = {
+		B58B9BAE1B47D70D00EAAA42 /* GHUnitTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B574E4491B31A41800037C40 /* Build configuration list for PBXNativeTarget "BusinessLogicLayerTests" */;
+			buildConfigurationList = B58B9BD21B47D70D00EAAA42 /* Build configuration list for PBXNativeTarget "GHUnitTest" */;
 			buildPhases = (
-				B574E4391B31A41800037C40 /* Sources */,
-				B574E43A1B31A41800037C40 /* Frameworks */,
-				B574E43B1B31A41800037C40 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B574E4401B31A41800037C40 /* PBXTargetDependency */,
-			);
-			name = BusinessLogicLayerTests;
-			productName = BusinessLogicLayerTests;
-			productReference = B574E43D1B31A41800037C40 /* BusinessLogicLayerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		B574E4C11B31BEF000037C40 /* GHUnitTest */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B574E4CB1B31BEF000037C40 /* Build configuration list for PBXNativeTarget "GHUnitTest" */;
-			buildPhases = (
-				B574E4BE1B31BEF000037C40 /* Sources */,
-				B574E4BF1B31BEF000037C40 /* Frameworks */,
-				B574E4C01B31BEF000037C40 /* Resources */,
+				B58B9BAB1B47D70D00EAAA42 /* Sources */,
+				B58B9BAC1B47D70D00EAAA42 /* Frameworks */,
+				B58B9BAD1B47D70D00EAAA42 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -233,8 +192,8 @@
 			);
 			name = GHUnitTest;
 			productName = GHUnitTest;
-			productReference = B574E4C21B31BEF000037C40 /* GHUnitTest.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
+			productReference = B58B9BAF1B47D70D00EAAA42 /* GHUnitTest.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -248,10 +207,7 @@
 					B574E4311B31A41700037C40 = {
 						CreatedOnToolsVersion = 6.3;
 					};
-					B574E43C1B31A41800037C40 = {
-						CreatedOnToolsVersion = 6.3;
-					};
-					B574E4C11B31BEF000037C40 = {
+					B58B9BAE1B47D70D00EAAA42 = {
 						CreatedOnToolsVersion = 6.3;
 					};
 				};
@@ -262,6 +218,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = B574E4291B31A41700037C40;
 			productRefGroup = B574E4331B31A41700037C40 /* Products */;
@@ -269,24 +226,17 @@
 			projectRoot = "";
 			targets = (
 				B574E4311B31A41700037C40 /* BusinessLogicLayer */,
-				B574E43C1B31A41800037C40 /* BusinessLogicLayerTests */,
-				B574E4C11B31BEF000037C40 /* GHUnitTest */,
+				B58B9BAE1B47D70D00EAAA42 /* GHUnitTest */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B574E43B1B31A41800037C40 /* Resources */ = {
+		B58B9BAD1B47D70D00EAAA42 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B574E4C01B31BEF000037C40 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				B58B9BE61B47DAE400EAAA42 /* GHUnitTest-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,35 +249,21 @@
 			files = (
 				B574E4D41B31BFCD00037C40 /* EventsBL.m in Sources */,
 				B574E4D81B31C01400037C40 /* ScheduleBL.m in Sources */,
-				B574E48D1B31AD6300037C40 /* EventsDAOTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B574E4391B31A41800037C40 /* Sources */ = {
+		B58B9BAB1B47D70D00EAAA42 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B574E4BE1B31BEF000037C40 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B574E4D51B31BFCD00037C40 /* EventsBL.m in Sources */,
-				B574E4D91B31C01400037C40 /* ScheduleBL.m in Sources */,
+				B58B9BDB1B47D79F00EAAA42 /* ScheduleBL.m in Sources */,
+				B58B9BDA1B47D79A00EAAA42 /* EventsBL.m in Sources */,
+				B58B9BD91B47D79400EAAA42 /* ScheduleBLTest.m in Sources */,
+				B58B9BD81B47D78C00EAAA42 /* EventsBLTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		B574E4401B31A41800037C40 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B574E4311B31A41700037C40 /* BusinessLogicLayer */;
-			targetProxy = B574E43F1B31A41800037C40 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		B574E4441B31A41800037C40 /* Debug */ = {
@@ -369,6 +305,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)$/**";
 			};
 			name = Debug;
 		};
@@ -404,6 +341,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)$/**";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -415,9 +353,16 @@
 					"$(inherited)",
 					"/Users/emma/Downloads/2016Olympics_iOS-master",
 				);
+				INFOPLIST_FILE = "BusinessLogicLayer/GHUnitTest/GHUnitTest-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/emma/Documents/IOS开发/my",
+					"project/2016Olympics/PersistenceLayer/build/Debug-iphoneos",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)$/**";
 			};
 			name = Debug;
 		};
@@ -428,49 +373,25 @@
 					"$(inherited)",
 					"/Users/emma/Downloads/2016Olympics_iOS-master",
 				);
+				INFOPLIST_FILE = "BusinessLogicLayer/GHUnitTest/GHUnitTest-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/emma/Documents/IOS开发/my",
+					"project/2016Olympics/PersistenceLayer/build/Debug-iphoneos",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)$/**";
 			};
 			name = Release;
 		};
-		B574E44A1B31A41800037C40 /* Debug */ = {
+		B58B9BD31B47D70D00EAAA42 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = BusinessLogicLayerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		B574E44B1B31A41800037C40 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = BusinessLogicLayerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		B574E4CC1B31BEF000037C40 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"/Users/emma/Downloads/2016Olympics_iOS-master",
 				);
@@ -479,36 +400,33 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = GHUnitTest/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/emma/Documents/IOS开发/2016Olympics/PersistenceLayer/build/Debug-iphoneos",
 					"/Users/emma/Documents/IOS开发/my",
 					"project/2016Olympics/PersistenceLayer/build/Debug-iphoneos",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)$/**";
 			};
 			name = Debug;
 		};
-		B574E4CD1B31BEF000037C40 /* Release */ = {
+		B58B9BD41B47D70D00EAAA42 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"/Users/emma/Downloads/2016Olympics_iOS-master",
 				);
 				INFOPLIST_FILE = GHUnitTest/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/emma/Documents/IOS开发/2016Olympics/PersistenceLayer/build/Debug-iphoneos",
 					"/Users/emma/Documents/IOS开发/my",
 					"project/2016Olympics/PersistenceLayer/build/Debug-iphoneos",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)$/**";
 			};
 			name = Release;
 		};
@@ -533,23 +451,13 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B574E4491B31A41800037C40 /* Build configuration list for PBXNativeTarget "BusinessLogicLayerTests" */ = {
+		B58B9BD21B47D70D00EAAA42 /* Build configuration list for PBXNativeTarget "GHUnitTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B574E44A1B31A41800037C40 /* Debug */,
-				B574E44B1B31A41800037C40 /* Release */,
+				B58B9BD31B47D70D00EAAA42 /* Debug */,
+				B58B9BD41B47D70D00EAAA42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B574E4CB1B31BEF000037C40 /* Build configuration list for PBXNativeTarget "GHUnitTest" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B574E4CC1B31BEF000037C40 /* Debug */,
-				B574E4CD1B31BEF000037C40 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
