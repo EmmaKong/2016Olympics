@@ -34,6 +34,12 @@
 		B574E4E91B31C3C700037C40 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B574E4E81B31C3C700037C40 /* libsqlite3.dylib */; };
 		B574E4EB1B31C3DC00037C40 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B574E4EA1B31C3DC00037C40 /* UIKit.framework */; };
 		B574E4ED1B31C3EA00037C40 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B574E4EC1B31C3EA00037C40 /* CoreGraphics.framework */; };
+		B58B9AE41B47CA1400EAAA42 /* Events.m in Sources */ = {isa = PBXBuildFile; fileRef = B574E4851B31A71800037C40 /* Events.m */; };
+		B58B9AE51B47CA1700EAAA42 /* Schedule.m in Sources */ = {isa = PBXBuildFile; fileRef = B574E4881B31A75400037C40 /* Schedule.m */; };
+		B58B9AE61B47CA1B00EAAA42 /* DBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B574E48F1B31AE3A00037C40 /* DBHelper.m */; };
+		B58B9AE71B47CA1F00EAAA42 /* BaseDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = B574E4931B31B45F00037C40 /* BaseDAO.m */; };
+		B58B9AE81B47CA2300EAAA42 /* EventsDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = B574E4961B31B4B900037C40 /* EventsDAO.m */; };
+		B58B9AE91B47CA2700EAAA42 /* ScheduleDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = B574E4991B31B5B400037C40 /* ScheduleDAO.m */; };
 		B5A3BE361B4686480007E604 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B574E4EC1B31C3EA00037C40 /* CoreGraphics.framework */; };
 		B5A3BE371B4686570007E604 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B574E4E81B31C3C700037C40 /* libsqlite3.dylib */; };
 		B5A3BE381B4686590007E604 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B574E4EA1B31C3DC00037C40 /* UIKit.framework */; };
@@ -43,13 +49,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B574E3F01B31A32300037C40 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B574E3DB1B31A32300037C40 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B574E3E21B31A32300037C40;
-			remoteInfo = PersistenceLayer;
-		};
 		B574E4AB1B31B8D700037C40 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B574E3DB1B31A32300037C40 /* Project object */;
@@ -265,7 +264,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				B574E3F11B31A32300037C40 /* PBXTargetDependency */,
 			);
 			name = PersistenceLayerTests;
 			productName = PersistenceLayerTests;
@@ -368,6 +366,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B58B9AE91B47CA2700EAAA42 /* ScheduleDAO.m in Sources */,
+				B58B9AE81B47CA2300EAAA42 /* EventsDAO.m in Sources */,
+				B58B9AE71B47CA1F00EAAA42 /* BaseDAO.m in Sources */,
+				B58B9AE61B47CA1B00EAAA42 /* DBHelper.m in Sources */,
+				B58B9AE51B47CA1700EAAA42 /* Schedule.m in Sources */,
+				B58B9AE41B47CA1400EAAA42 /* Events.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,11 +393,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B574E3F11B31A32300037C40 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B574E3E21B31A32300037C40 /* PersistenceLayer */;
-			targetProxy = B574E3F01B31A32300037C40 /* PBXContainerItemProxy */;
-		};
 		B574E4AC1B31B8D700037C40 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B574E3E21B31A32300037C40 /* PersistenceLayer */;

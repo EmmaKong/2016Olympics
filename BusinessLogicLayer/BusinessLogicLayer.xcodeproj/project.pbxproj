@@ -14,23 +14,17 @@
 		B56940531B46D76700085F55 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B56940521B46D76700085F55 /* UIKit.framework */; };
 		B574E43E1B31A41800037C40 /* libBusinessLogicLayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B574E4321B31A41700037C40 /* libBusinessLogicLayer.a */; };
 		B574E48D1B31AD6300037C40 /* EventsDAOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B574E48C1B31AD6300037C40 /* EventsDAOTests.m */; };
-		B574E4CF1B31BF3100037C40 /* EventsBLTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B574E4CE1B31BF3100037C40 /* EventsBLTest.m */; };
-		B574E4D11B31BF7200037C40 /* ScheduleBLTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B574E4D01B31BF7200037C40 /* ScheduleBLTest.m */; };
 		B574E4D41B31BFCD00037C40 /* EventsBL.m in Sources */ = {isa = PBXBuildFile; fileRef = B574E4D31B31BFCD00037C40 /* EventsBL.m */; };
 		B574E4D51B31BFCD00037C40 /* EventsBL.m in Sources */ = {isa = PBXBuildFile; fileRef = B574E4D31B31BFCD00037C40 /* EventsBL.m */; };
 		B574E4D81B31C01400037C40 /* ScheduleBL.m in Sources */ = {isa = PBXBuildFile; fileRef = B574E4D71B31C01400037C40 /* ScheduleBL.m */; };
 		B574E4D91B31C01400037C40 /* ScheduleBL.m in Sources */ = {isa = PBXBuildFile; fileRef = B574E4D71B31C01400037C40 /* ScheduleBL.m */; };
+		B58B9ADB1B47C8FF00EAAA42 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B56940521B46D76700085F55 /* UIKit.framework */; };
+		B58B9ADC1B47C90200EAAA42 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B56940501B46D76000085F55 /* CoreGraphics.framework */; };
+		B58B9ADD1B47C90400EAAA42 /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B569404E1B46D74200085F55 /* GHUnitIOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		B574E43F1B31A41800037C40 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B574E42A1B31A41700037C40 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B574E4311B31A41700037C40;
-			remoteInfo = BusinessLogicLayer;
-		};
-		B574E4C91B31BEF000037C40 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B574E42A1B31A41700037C40 /* Project object */;
 			proxyType = 1;
@@ -95,8 +89,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B58B9ADD1B47C90400EAAA42 /* GHUnitIOS.framework in Frameworks */,
+				B58B9ADC1B47C90200EAAA42 /* CoreGraphics.framework in Frameworks */,
 				B569404D1B46D6CE00085F55 /* Foundation.framework in Frameworks */,
 				B569404B1B46D6C300085F55 /* libPersistenceLayer.a in Frameworks */,
+				B58B9ADB1B47C8FF00EAAA42 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,7 +230,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				B574E4CA1B31BEF000037C40 /* PBXTargetDependency */,
 			);
 			name = GHUnitTest;
 			productName = GHUnitTest;
@@ -318,10 +314,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B574E4D11B31BF7200037C40 /* ScheduleBLTest.m in Sources */,
 				B574E4D51B31BFCD00037C40 /* EventsBL.m in Sources */,
 				B574E4D91B31C01400037C40 /* ScheduleBL.m in Sources */,
-				B574E4CF1B31BF3100037C40 /* EventsBLTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,11 +326,6 @@
 			isa = PBXTargetDependency;
 			target = B574E4311B31A41700037C40 /* BusinessLogicLayer */;
 			targetProxy = B574E43F1B31A41800037C40 /* PBXContainerItemProxy */;
-		};
-		B574E4CA1B31BEF000037C40 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B574E4311B31A41700037C40 /* BusinessLogicLayer */;
-			targetProxy = B574E4C91B31BEF000037C40 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -483,6 +472,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"/Users/emma/Downloads/2016Olympics_iOS-master",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -497,8 +487,7 @@
 					"project/2016Olympics/PersistenceLayer/build/Debug-iphoneos",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
-				"USER_HEADER_SEARCH_PATHS[arch=*]" = "";
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)$/**";
 			};
 			name = Debug;
 		};
@@ -508,6 +497,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"/Users/emma/Downloads/2016Olympics_iOS-master",
 				);
 				INFOPLIST_FILE = GHUnitTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -518,7 +508,7 @@
 					"project/2016Olympics/PersistenceLayer/build/Debug-iphoneos",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)$/**";
 			};
 			name = Release;
 		};
